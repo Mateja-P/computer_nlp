@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import AboutUs from '../Components/Page_Components/AboutUs';
 import Chat from '../Components/Page_Components/Chat';
 import Footer from '../Components/Page_Components/Footer';
@@ -14,6 +15,9 @@ import Testemonial from '../Components/Page_Components/Testemonial';
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>OliBot.rs</title>
+      </Head>
       <Header />
       <Hero />
       <AboutUs />

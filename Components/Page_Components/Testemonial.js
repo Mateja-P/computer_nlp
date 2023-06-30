@@ -32,12 +32,22 @@ const Testemonial = () => {
           </h2>
           <div className='flex mt-3'>
             <img
-              onClick={() => setActiveSlide(activeSlide - 1)}
+              onClick={() =>
+                setActiveSlide(
+                  activeSlide === 1 ? (activeSlide = 1) : activeSlide - 1
+                )
+              }
               className='w-[50px]'
               src={arrowImg.src}
             />
             <img
-              onClick={() => setActiveSlide(activeSlide + 1)}
+              onClick={() =>
+                setActiveSlide(
+                  activeSlide === testemonials.length
+                    ? (activeSlide = testemonials.length)
+                    : activeSlide + 1
+                )
+              }
               className='w-[50px] rotate-[180deg]'
               src={arrowImg.src}
             />
