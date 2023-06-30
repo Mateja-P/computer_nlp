@@ -6,6 +6,7 @@ import Header from '../Components/Page_Components/Header';
 import Hero from '../Components/Page_Components/Hero';
 import PreFooter from '../Components/Page_Components/PreFooter';
 import Testemonial from '../Components/Page_Components/Testemonial';
+import favicon from '../public/Header/logo.png';
 
 //Python chat
 //Animacije
@@ -17,6 +18,7 @@ export default function Home() {
     <div>
       <Head>
         <title>OliBot.rs</title>
+        <link rel='icon' href={favicon.src} />
       </Head>
       <Header />
       <Hero />
