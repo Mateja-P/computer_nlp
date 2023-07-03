@@ -14,7 +14,7 @@ CORS(app)
 
 def return_home():
     COMPLETIONS_MODEL = "text-davinci-003"
-    openai.api_key = "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"
+    openai.api_key = "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"
     prompt = "Answer the question as truthfully as possible, and if you're unsure of the answer, say 'Zbog malog broja podataka nemam odgovor'."
 
     # df = pd.read_csv('https://raw.githubusercontent.com/DAR-DatenanalyseRehberg/import/main/QatarWorldCup.csv')
