@@ -111,5 +111,5 @@ def return_home():
         model=COMPLETIONS_MODEL
     )["choices"][0]["text"].strip(" \n")
                 
-if __name__ == "__main__":
-    app.run(debug=True, port=8080) 
+# if __name__ == "__main__":
+#     app.run(debug=True, port=8080) 
