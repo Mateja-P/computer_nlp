@@ -5,7 +5,7 @@ import Button from '../Button';
 
 const Footer = () => {
   return (
-    <div className='relative pb-32'>
+    <div id='posalji-poruku' className='relative pb-32'>
       <div className='w1 flex z-[2] relative md:flex-col md:gap-10'>
         <div className='flex-1'>
           <h2 className='text-[20px] font-semibold mb-5'>

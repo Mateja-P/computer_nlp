@@ -24,7 +24,7 @@ const Testemonial = () => {
   let [activeSlide, setActiveSlide] = useState(1);
 
   return (
-    <div className='bg-secondaryLightBlue py-20'>
+    <div id='testemonial' className='bg-secondaryLightBlue py-20'>
       <div className='w1 flex md:flex-col md:items-start md:gap-5 justify-between items-center'>
         <div className='flex-1 text-[28px] font-semibold xs:text-[25px]'>
           <h2>

@@ -7,7 +7,10 @@ import Solutions from './Solutions';
 const AboutUs = () => {
   return (
     <>
-      <div className='h-[85vh] pt-10 md:h-auto md:pt-10 relative flex items-center'>
+      <div
+        id='o-nama'
+        className='h-[85vh] pt-10 md:h-auto md:pt-10 relative flex items-center'
+      >
         <img
           className='absolute top-[-55%] 2xl:top-[-45%] !w-[100%] xl:h-[120%] aboutUs_img xs:h-[150%]'
           src={aboutShape2Img.src}

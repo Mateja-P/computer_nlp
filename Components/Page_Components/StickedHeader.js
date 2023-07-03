@@ -21,24 +21,44 @@ const StickedHeader = ({ stickHeader }) => {
           <Link className='text-lightText font-medium text-[13px]' href='/'>
             Početna
           </Link>
-          <Link className='text-lightText font-medium text-[13px]' href='/'>
+          <Link
+            className='text-lightText font-medium text-[13px]'
+            href='#o-nama'
+          >
             O Nama
           </Link>
-          <Link className='text-lightText font-medium text-[13px]' href='/'>
+          <Link
+            className='text-lightText font-medium text-[13px]'
+            href='#resenja'
+          >
             Rešenja
           </Link>
-          <Link className='text-lightText font-medium text-[13px]' href='/'>
+          <Link className='text-lightText font-medium text-[13px]' href='#chat'>
             Chat
           </Link>
-          <Link className='text-lightText font-medium text-[13px]' href='/'>
+          <Link
+            className='text-lightText font-medium text-[13px]'
+            href='#testemonial'
+          >
             Testemonial
           </Link>
-          <Link className='text-lightText font-medium text-[13px]' href='/'>
+          <Link
+            className='text-lightText font-medium text-[13px]'
+            href='#posalji-poruku'
+          >
             Pošalji Poruku
           </Link>
         </div>
-        <div className='bg-gradient-to-r from-cyan-500 to-blue-500 h-full flex justify-center items-center px-7 rounded-bl-3xl text-white cursor-pointer lg:hidden'>
-          <p className='font-medium text-[15px]'>30 Dana Besplatno</p>
+        <div className='bg-gradient-to-r from-cyan-500 to-blue-500 h-full flex justify-center items-center rounded-bl-3xl text-white cursor-pointer lg:hidden'>
+          <Link
+            onClick={e => {
+              e.stopPropagation();
+            }}
+            className='font-medium text-[15px] h-full w-full flex justify-center items-center px-7'
+            href='#posalji-poruku'
+          >
+            30 Dana Besplatno
+          </Link>
         </div>
 
         <div
@@ -50,24 +70,32 @@ const StickedHeader = ({ stickHeader }) => {
             <Link className='text-lightText text-[13px]' href='/'>
               Početna
             </Link>
-            <Link className='text-lightText text-[13px]' href='/'>
+            <Link className='text-lightText text-[13px]' href='#o-nama'>
               O nama
             </Link>
-            <Link className='text-lightText text-[13px]' href='/'>
+            <Link className='text-lightText text-[13px]' href='#resenja'>
               Rešenja
             </Link>
-            <Link className='text-lightText text-[13px]' href='/'>
+            <Link className='text-lightText text-[13px]' href='#chat'>
               Chat
             </Link>
-            <Link className='text-lightText text-[13px]' href='/'>
+            <Link className='text-lightText text-[13px]' href='#testemonial'>
               Testemonial
             </Link>
-            <Link className='text-lightText text-[13px]' href='/'>
+            <Link className='text-lightText text-[13px]' href='#posalji-poruku'>
               Pošalji poruku
             </Link>
           </div>
           <div className='bg-gradient-to-r from-cyan-500 to-blue-500 h-full flex justify-center items-center px-7 rounded-3xl py-3 mt-5 text-white cursor-pointer'>
-            <p className='font-medium text-[15px]'>30 Dana Besplatno</p>
+            <Link
+              onClick={e => {
+                e.stopPropagation();
+              }}
+              className='font-medium text-[15px] h-full w-full flex justify-center items-center px-7'
+              href='#posalji-poruku'
+            >
+              30 Dana Besplatno
+            </Link>
           </div>
         </div>
 

@@ -8,10 +8,9 @@ import PreFooter from '../Components/Page_Components/PreFooter';
 import Testemonial from '../Components/Page_Components/Testemonial';
 import favicon from '../public/Header/logo.png';
 
-//Python chat
 //Animacije
 //Animacije na testemonial slider
-//Linkovi ka sekcijama
+//Submit form
 
 export default function Home() {
   return (

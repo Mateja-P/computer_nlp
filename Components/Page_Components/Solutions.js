@@ -3,7 +3,10 @@ import solutionsImg from '../../public/Solutions/solutions.png';
 
 const Solutions = () => {
   return (
-    <div className="bg-[url('/Solutions/solutionsShape.png')] pt-56 pb-[300px] mb-10 xl:pt-24 md:pb-[100px] 2xl:pt-40">
+    <div
+      id='resenja'
+      className="bg-[url('/Solutions/solutionsShape.png')] pt-56 pb-[300px] mb-10 xl:pt-24 md:pb-[100px] 2xl:pt-40"
+    >
       <div className='w1 flex justify-between items-center md:flex-col-reverse'>
         <div className='flex-1'>
           <img className='w-[400px] md:w-full md:mt-5' src={solutionsImg.src} />

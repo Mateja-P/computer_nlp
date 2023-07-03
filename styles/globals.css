@@ -58,3 +58,17 @@ img {
     top: -63% !important;
   }
 }
+
+.custom__scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom__scrollbar::-webkit-scrollbar-track {
+  background: white;
+}
+
+.custom__scrollbar::-webkit-scrollbar-thumb {
+  background-color: #007aff;
+  border-radius: 20px;
+  border: 1px white solid;
+}
